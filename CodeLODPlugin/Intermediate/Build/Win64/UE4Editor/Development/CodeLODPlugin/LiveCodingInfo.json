@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CodeLODPlugin.cpp.obj": [
+			"CodeLODComponent.cpp.obj",
+			"CodeLODPlugin.cpp.obj",
+			"CodeLODSubsystem.cpp.obj",
+			"DetermineLODObject.cpp.obj",
+			"FunctionObject.cpp.obj",
+			"HalfLoadLODObject.cpp.obj",
+			"InlineObject.cpp.obj",
+			"InlineObjectValue.cpp.obj",
+			"LODNameSubsystem.cpp.obj"
+		],
+		"Module.CodeLODPlugin.gen.cpp.obj": [
+			"CodeLODComponent.gen.cpp.obj",
+			"CodeLODPlugin.init.gen.cpp.obj",
+			"CodeLODSubsystem.gen.cpp.obj",
+			"DetermineLODObject.gen.cpp.obj",
+			"FunctionObject.gen.cpp.obj",
+			"HalfLoadLODObject.gen.cpp.obj",
+			"InlineObject.gen.cpp.obj",
+			"InlineObjectValue.gen.cpp.obj",
+			"LODNameSubsystem.gen.cpp.obj"
+		]
+	}
+}
