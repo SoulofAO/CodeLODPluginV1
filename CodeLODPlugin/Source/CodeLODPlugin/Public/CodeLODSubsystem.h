@@ -21,9 +21,6 @@ class CODELODPLUGIN_API UCodeLODSubsystem : public UWorldSubsystem
 public:
 
 	UCodeLODSubsystem();
-
-	UPROPERTY()
-	FKey KeyToBindDebugMode;
 	//Основная функция инициализации. 
 	//The main initialization function.
 	void InitializeCodeLOD();
@@ -36,9 +33,6 @@ public:
 
 	void ClearCloseName();
 
-	UUserWidjet* DebugWidjet;
-
-	void ChangeDebugInstrument();
 	//Список Constant HalfLoadLODObject
 	UPROPERTY(BlueprintReadWrite)
 	TArray<UHalfLoadLODObject*> LodConstantObjects;

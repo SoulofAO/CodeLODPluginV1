@@ -14,7 +14,6 @@
 
 void UCodeLODSubsystem::InitializeCodeLOD()
 {
-	UGameplayStatics::GetPlayerController(GetWorld(),0)->InputComponent->BindKey<UCodeLODSubsystem>(KeyToBindDebugMode, EInputEvent::IE_Pressed, this, )
 	LodConstantObjects.Empty();
 	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Black, "Initialize start");
 	UWorld* World = GetWorld();
@@ -96,18 +95,6 @@ void UCodeLODSubsystem::ClearCloseName()
 		UGameplayStatics::DeleteGameInSlot(Name.ToString(), 0);
 	}
 	RegisteredObjects.Empty();
-}
-
-void UCodeLODSubsystem::ChangeDebugInstrument()
-{
-	if (DebugWidjet)
-	{
-		DebugWidjet = 
-	}
-	else
-	{
-		
-	}
 }
 
 UCodeLODSubsystem::UCodeLODSubsystem()
